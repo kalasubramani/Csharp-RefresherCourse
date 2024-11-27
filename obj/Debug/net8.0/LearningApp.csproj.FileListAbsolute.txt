@@ -1,0 +1,14 @@
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\LearningApp.exe
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\LearningApp.deps.json
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\LearningApp.runtimeconfig.json
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\LearningApp.dll
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\LearningApp.pdb
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.AssemblyInfoInputs.cache
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.AssemblyInfo.cs
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.csproj.CoreCompileInputs.cache
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.dll
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\LearningApp.dll
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.pdb
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.genruntimeconfig.cache
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\LearningApp.dll
