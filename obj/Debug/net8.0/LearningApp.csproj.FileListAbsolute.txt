@@ -12,3 +12,4 @@ C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\LearningApp.
 C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.pdb
 C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.genruntimeconfig.cache
 C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\LearningApp.dll
+C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\LearningApp.sourcelink.json

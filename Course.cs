@@ -11,18 +11,23 @@ namespace LearningApp
     {
         //public readonly int _courseID=1; //can not have set()
         public int _courseID;
-        public string _courseName;
+        public string? _courseName;//? - marks that the filed is nullable
         public double _rating=1;
+        private CourseCategory _courseCategory;
 
         private static int numberOfCourses=0; //class level variable
 
         public const string CourseMessage = "This is a new course";
         public int CourseID
         {
-            get { return _courseID; }
-            set { _courseID = value; }
+            //get { return _courseID; }
+            //set { _courseID = value; }
+
+            //use expression body definitions
+            get => _courseID;
+            set => _courseID = value;
         }
-        public string CourseName
+        public string? CourseName
         {
             get { return _courseName; }
             set { _courseName = value; }
@@ -36,6 +41,8 @@ namespace LearningApp
             }
         }
 
+        public CourseCategory CourseCategory { get => _courseCategory; }
+
         //constructor
         public Course()
         {
@@ -45,11 +52,12 @@ namespace LearningApp
             _rating = 1;
         }
 
-        public Course(int courseID, string courseName,double rating)
+        public Course(int courseID, string courseName,double rating,CourseCategory courseCategory)
         {
             _courseID = courseID;   
             _courseName = courseName;
             _rating = rating;
+            _courseCategory = courseCategory;
             numberOfCourses++;
         }
 
@@ -74,11 +82,14 @@ namespace LearningApp
             Console.WriteLine($"Course Rating {_rating}");
         }
 
-        public string GetCourseDetails()
-        {
-            string CourseDetails = $"Course ID {_courseID}\nCourse Name {_courseName}\nCourse Rating {_rating}";
-            return CourseDetails;
-        }
+        //public string GetCourseDetails()
+        //{
+        //    string CourseDetails = $"Course ID {_courseID}\nCourse Name {_courseName}\nCourse Rating {_rating}";
+        //    return CourseDetails;
+        //}
+
+        //use expression body definitions
+        public string GetCourseDetails() => $"--Course Details--\n Course Id {_courseID} \n Course Name {_courseName} \n Course Rating {_rating}\n Course Category {_courseCategory}";
 
         //using tuple return type
         public (string feedback,double rating) GetFeedback()
