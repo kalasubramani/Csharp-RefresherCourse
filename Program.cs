@@ -1,18 +1,12 @@
-﻿
-using System.Text.Json;
-using LearningApp;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-string path = @"C:\Users\kalay\.net\ConsoleApp1\ConsoleApp1\courses.json";
-
-StreamReader streamReader = File.OpenText(path);
-
-string jsonObj = streamReader.ReadToEnd(); //reads all chars in file as a string
-
-//Console.WriteLine(jsonObj);
-
-List<Course> courses = new List<Course>();
-courses=JsonSerializer.Deserialize<List<Course>>(jsonObj);
-
-
-foreach (Course course in courses)
-    Console.WriteLine(course);
+namespace LearningApp
+{
+    internal class Program
+    {
+    }
+}

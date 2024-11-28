@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace LearningApp
@@ -19,6 +20,8 @@ namespace LearningApp
         private static int numberOfCourses=0; //class level variable
 
         public const string CourseMessage = "This is a new course";
+
+        [JsonPropertyName("courseID")]
         public int CourseID
         {
             //get { return _courseID; }
@@ -28,11 +31,15 @@ namespace LearningApp
             get => _courseID;
             set => _courseID = value;
         }
+
+        [JsonPropertyName("courseName")]
         public string? CourseName
         {
             get { return _courseName; }
             set { _courseName = value; }
         }
+
+        [JsonPropertyName("rating")]
         public double Rating
         {
             get { return _rating; }

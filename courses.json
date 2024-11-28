@@ -1,27 +1,77 @@
 [
     {
-        "CourseID": 1,
-        "CourseName": "C# Programming",
-        "Rating": 4.5
+        "courseID": 1,
+        "courseName": "C# Programming",
+        "rating": 4.5,
+        "students": [
+            {
+                "studentID": "501",
+                "hoursWatched": 4
+            },
+            {
+                "studentID": "502",
+                "hoursWatched": 5
+            }
+        ]
     },
     {
-        "CourseID": 2,
-        "CourseName": "Python Programming",
-        "Rating": 4.3
+        "courseID": 2,
+        "courseName": "Python Programming",
+        "rating": 4.3,
+        "students": [
+            {
+                "studentID": "601",
+                "hoursWatched": 3
+            },
+            {
+                "studentID": "602",
+                "hoursWatched": 5
+            }
+        ]
     },
     {
-        "CourseID": 3,
-        "CourseName": "AWS Certification",
-        "Rating": 3.5
+        "courseID": 3,
+        "courseName": "AWS Certification",
+        "rating": 3.5,
+        "students": [
+            {
+                "studentID": "701",
+                "hoursWatched": 7
+            },
+            {
+                "studentID": "702",
+                "hoursWatched": 8
+            }
+        ]
     },
     {
-        "CourseID": 4,
-        "CourseName": "Full Stack Web Development",
-        "Rating": 3.9
+        "courseID": 4,
+        "courseName": "Full Stack Web Development",
+        "rating": 3.9,
+        "students": [
+            {
+                "studentID": "801",
+                "hoursWatched": 8
+            },
+            {
+                "studentID": "802",
+                "hoursWatched": 9
+            }
+        ]
     },
     {
-        "CourseID": 5,
-        "CourseName": "AWS Develper Associate",
-        "Rating": 3.5
+        "courseID": 5,
+        "courseName": "AWS Develper Associate",
+        "rating": 3.5,
+        "students": [
+            {
+                "studentID": "901",
+                "hoursWatched": 2
+            },
+            {
+                "studentID": "902",
+                "hoursWatched": 7
+            }
+        ]
     }
 ]
