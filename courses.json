@@ -1,0 +1,27 @@
+[
+    {
+        "CourseID": 1,
+        "CourseName": "C# Programming",
+        "Rating": 4.5
+    },
+    {
+        "CourseID": 2,
+        "CourseName": "Python Programming",
+        "Rating": 4.3
+    },
+    {
+        "CourseID": 3,
+        "CourseName": "AWS Certification",
+        "Rating": 3.5
+    },
+    {
+        "CourseID": 4,
+        "CourseName": "Full Stack Web Development",
+        "Rating": 3.9
+    },
+    {
+        "CourseID": 5,
+        "CourseName": "AWS Develper Associate",
+        "Rating": 3.5
+    }
+]

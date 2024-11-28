@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FilesAndStreamIO.cs" />
     <Compile Remove="LambdaAndAnonymousfunctions.cs" />
     <Compile Remove="Program_1.cs" />
     <Compile Remove="Program_2.cs" />

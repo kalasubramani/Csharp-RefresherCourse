@@ -24,3 +24,14 @@ Console.WriteLine($"Does the directory exists ? {Directory.Exists(path2)}");
 var files = Directory.EnumerateFiles(path2);
 foreach (var f in files)
     Console.WriteLine(path.Length+f.Substring(path.Length+1));
+
+
+    //Stream reader
+    StreamReader streamreader = File.OpenText(path1);
+if(!(StreamReader == null))
+{
+    string line;
+    
+    while((line = StreamReader.ReadLine())!=null)
+        Console.WriteLine(line);
+}

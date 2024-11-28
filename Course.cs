@@ -48,9 +48,9 @@ namespace LearningApp
         public Course()
         {
             //set defaults
-            _courseID = 1;
-            _courseName = "This is a course";
-            _rating = 1;
+            //_courseID = 1;
+            //_courseName = "This is a course";
+            //_rating = 1;
         }
 
         public Course(int courseID, string courseName,double rating,CourseCategory courseCategory)
@@ -61,6 +61,8 @@ namespace LearningApp
             _courseCategory = courseCategory;
             numberOfCourses++;
         }
+        //overriding ToString()
+        public override string ToString() => $"Course ID {_courseID} Course Name {_courseName} Rating {_rating}\n";
 
         public static int TotalNoOfCourses()
         {
@@ -132,7 +134,7 @@ namespace LearningApp
         //    public int OrderId { get; set; }
         //    public int CourseID { get; set; }
         //    public decimal PurchasePrice { get; set; }
-        //}
+        //}t
 
         public record CourseOrder(int OrderId, int CourseId, decimal PurchasePrice);
 
