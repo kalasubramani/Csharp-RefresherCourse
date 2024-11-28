@@ -17,6 +17,7 @@
     <Compile Remove="Program_3.cs" />
     <Compile Remove="Program_4.cs" />
     <Compile Remove="Program_5.cs" />
+    <Compile Remove="ReadingFromJSONFile.cs" />
   </ItemGroup>
 
 </Project>
