@@ -102,4 +102,15 @@ namespace LearningApp
 
         public string DisplayVideoDetails() => $"Frame Height {FrameHeight} Frame Width {FrameWidth} Data Rate {DataRate}";
     }
+
+    //records
+    //when some one purchses a course - immutable
+    //record CourseOrder
+    //{
+    //    public int OrderId { get; set; }
+    //    public int CourseID { get; set; }
+    //    public decimal PurchasePrice { get; set; }
+    //}
+
+    record CourseOrder(int OrderId,int CourseId,decimal PurchasePrice);
 }

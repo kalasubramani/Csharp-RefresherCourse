@@ -14,6 +14,7 @@ namespace LearningApp
         public string? _courseName;//? - marks that the filed is nullable
         public double _rating=1;
         private CourseCategory _courseCategory;
+        private CourseOrder _courseOrder;
 
         private static int numberOfCourses=0; //class level variable
 
@@ -122,6 +123,22 @@ namespace LearningApp
                 default:
                     return "The rating needs to be set properly";
             }
+        }
+
+        //records
+        //when some one purchses a course - immutable
+        //record CourseOrder
+        //{
+        //    public int OrderId { get; set; }
+        //    public int CourseID { get; set; }
+        //    public decimal PurchasePrice { get; set; }
+        //}
+
+        public record CourseOrder(int OrderId, int CourseId, decimal PurchasePrice);
+
+        public void PurchaseCourse(CourseOrder courseOrder)
+        {
+            _courseOrder = courseOrder;
         }
     }
 }
