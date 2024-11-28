@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="Program_1.cs" />
+    <Compile Remove="Program_2.cs" />
   </ItemGroup>
 
 </Project>
