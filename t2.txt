@@ -1,0 +1,2 @@
+We are creating a new file via c#
+We are using the Stream Writer class
